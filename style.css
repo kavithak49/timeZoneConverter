@@ -1,0 +1,35 @@
+body
+{
+    margin:0;
+    padding:0;
+    display: flex;
+}
+
+.container
+{
+    border:1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    z-index: 99;
+}
+
+.input-container,.output-container
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding :10px 10px;
+}
+
+#inTime,#outTime
+{
+    margin:10px 10px;
+    height:25px;
+}
+
+#inZone,#outZone
+{
+    height:25px;
+}
