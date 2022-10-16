@@ -8,79 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="input-container">
-            <input type="time" name="inTime" id="inTime">
-            <select name="zones" id="inZone">
-                <option value="0">GMT</option>
-                <option value="0">UTC</option>
-                <option value="+1">ECT</option>
-                <option value="+2">EET</option>
-                <option value="+2">ART</option>
-                <option value="+3">EAT</option>
-                <option value="+3.5">MET</option>
-                <option value="+4">NET</option>
-                <option value="+5">PLT</option>
-                <option value="+5.5">IST</option>
-                <option value="+6">BST</option>
-                <option value="+7">VST</option>
-                <option value="+8">CTT</option>
-                <option value="+9">JST</option>
-                <option value="+9.5">ACT</option>
-                <option value="+10">AET</option>
-                <option value="+11">SST</option>
-                <option value="-11">MIT</option>
-                <option value="-10">HST</option>
-                <option value="-9">AST</option>
-                <option value="-8">PST</option>
-                <option value="-7">PNT</option>
-                <option value="-7">MST</option>
-                <option value="-6">CST</option>
-                <option value="-5">EST</option>
-                <option value="-5">IET</option>
-                <option value="-4">PRT</option>
-                <option value="-3.5">CNT</option>
-                <option value="-3">AGT</option>
-                <option value="-3">BET</option>
-                <option value="-1">CAT</option>
-            </select>
-        </div>
-        <div class="output-container">
-            <input type="time" name="outTime" id="outTime" disabled>
-            <select name="zones" id="outZone">
-                <option value="0">GMT</option>
-                <option value="0">UTC</option>
-                <option value="+1">ECT</option>
-                <option value="+2">EET</option>
-                <option value="+2">ART</option>
-                <option value="+3">EAT</option>
-                <option value="+3.5">MET</option>
-                <option value="+4">NET</option>
-                <option value="+5">PLT</option>
-                <option value="+5.5">IST</option>
-                <option value="+6">BST</option>
-                <option value="+7">VST</option>
-                <option value="+8">CTT</option>
-                <option value="+9">JST</option>
-                <option value="+9.5">ACT</option>
-                <option value="+10">AET</option>
-                <option value="+11">SST</option>
-                <option value="-11">MIT</option>
-                <option value="-10">HST</option>
-                <option value="-9">AST</option>
-                <option value="-8">PST</option>
-                <option value="-7">PNT</option>
-                <option value="-7">MST</option>
-                <option value="-6">CST</option>
-                <option value="-5">EST</option>
-                <option value="-5">IET</option>
-                <option value="-4">PRT</option>
-                <option value="-3.5">CNT</option>
-                <option value="-3">AGT</option>
-                <option value="-3">BET</option>
-                <option value="-1">CAT</option>
-            </select>
-        </div>
+    <div class="popup-container">
+        <div class="inHour">HH : <select name="" id="inHour"></select></div>
+        <div class="inMin">MM : <select name="" id="inMin"></select></div>
+        <div class="inZone">Zone : <select name="" id="inZone"></select></div>        
+        <div class="outHour">HH : <select name="" id="outHour"></select></div>
+        <div class="outMin">MM : <select name="" id="outMin"></select></div>
+        <div class="outZone">Zone : <select name="" id="outZone"></select></div>        
     </div>
     <script src="conversion.js"></script>
 </body>

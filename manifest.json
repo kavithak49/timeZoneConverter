@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "TimeZone",
+    "version": "1.0",
+  
+    "description": "Adds a browser action icon to the toolbar. Helps convert time from one zone to another",
+    "icons": {
+      "48": "icons/timeZoneIcon.svg"
+    },
+  
+    "permissions": [
+      "activeTab"
+    ],
+  
+    "browser_action": {
+      "default_icon": "icons/timeZoneIcon.svg",
+      "default_title": "TimeZone",
+      "default_popup": "index.html"
+    }
+  }
